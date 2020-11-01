@@ -6,6 +6,10 @@
 	flex-direction: column;
 }
 
+p {
+	text-align: justify;
+}
+
 .image {
 	position: absolute;
 	top: 0px;
@@ -56,13 +60,14 @@
 /* ----------------- Main Section ----------------- */
 .main-section {
 	display: flex;
-	padding: 40px 24px;
-	justify-content: center;
+	padding: 40px 32px;
+	flex-direction: column;
+	align-items: center;
 }
 
 .main-section-text {
-	width: 70%;
-	margin-right: 8px;
+	width: 100%;
+	padding: 12px;
 }
 
 .main-section-title {
@@ -71,23 +76,22 @@
 }
 
 .main-section-img {
-	width: 30%;
-	max-width: 100%;
-	max-height: 700px;
+	width: 70%;
+	height: 300px;
 	position: relative;
 	margin-top: 16px;
 }
 
 /* ----------------- Divider ----------------- */
 .divider {
-	border-top: 3px solid #eaeaea;
+	border-top: 1px solid #dbdbdb;
 	border-radius: 5px;
 	margin: 8px 0px;
 }
 
 /* ----------------- Testimonials ----------------- */
 .testimonials {
-	padding: 24px;
+	padding: 24px 32px;
 }
 
 .testimonials-card {
@@ -97,7 +101,7 @@
 	border: 2px solid #e1dede;
 	border-radius: 10px;
 	box-shadow: 5px 10px 10px #eaeaea;
-	padding: 24px;
+	padding: 32px;
 }
 
 .testimonials-data-user {
@@ -123,32 +127,16 @@
 .photos-carousel-section {
 	align-self: center;
 	margin: 48px;
-	width: 60%;
+	width: 50%;
 }
 
 .img-carousel {
-	height: 600px;
+	height: 500px;
 }
 
 /* ----------------- Media Query ----------------- */
 
 @media (max-width: 800px) {
-	.main-section {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.main-section-text {
-		width: 100%;
-		padding: 12px;
-	}
-
-	.main-section-img {
-		margin-top: 16px;
-		width: 70%;
-		height: 300px;
-	}
-
 	.photos-carousel-section {
 		width: 90%;
 	}
