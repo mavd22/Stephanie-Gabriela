@@ -60,7 +60,7 @@ p {
 /* ----------------- Main Section ----------------- */
 .main-section {
 	display: flex;
-	padding: 40px 32px;
+	padding: 40px 24px;
 	flex-direction: column;
 	align-items: center;
 }
@@ -91,7 +91,7 @@ p {
 
 /* ----------------- Testimonials ----------------- */
 .testimonials {
-	padding: 24px 32px;
+	padding: 24px;
 }
 
 .testimonials-card {
