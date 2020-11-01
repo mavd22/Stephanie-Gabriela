@@ -1,0 +1,20 @@
+#body {
+	font-family: "Dosis", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+	background: rgb(86, 61, 124);
+	background: linear-gradient(
+		90deg,
+		rgba(86, 61, 124, 1) 48%,
+		rgba(49, 25, 87, 1) 100%,
+		rgba(119, 119, 120, 1) 100%
+	);
+	box-shadow: 0 0 10px;
+}
+
+.navbar-text {
+	font-size: 24px;
+	color: white;
+}
