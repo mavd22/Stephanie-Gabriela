@@ -2,6 +2,8 @@
 #body {
 	font-family: "Dosis", sans-serif;
 	font-size: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 .image {
@@ -117,6 +119,17 @@
 	font-weight: bold;
 }
 
+/* ----------------- photos-carousel ----------------- */
+.photos-carousel-section {
+	align-self: center;
+	margin: 48px;
+	width: 60%;
+}
+
+.img-carousel {
+	height: 600px;
+}
+
 /* ----------------- Media Query ----------------- */
 
 @media (max-width: 800px) {
@@ -134,5 +147,9 @@
 		margin-top: 16px;
 		width: 70%;
 		height: 300px;
+	}
+
+	.photos-carousel-section {
+		width: 90%;
 	}
 }
