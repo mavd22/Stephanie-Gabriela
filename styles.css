@@ -10,6 +10,10 @@ p {
 	text-align: justify;
 }
 
+.border {
+	border-radius: 10px;
+}
+
 .image {
 	position: absolute;
 	top: 0px;
@@ -123,15 +127,23 @@ p {
 	font-weight: bold;
 }
 
+.testimonials-img {
+	width: 340px;
+	height: 320px;
+	position: relative;
+	margin-top: 16px;
+	align-self: center;
+}
+
 /* ----------------- photos-carousel ----------------- */
 .photos-carousel-section {
 	align-self: center;
 	margin: 48px;
-	width: 50%;
+	width: 40%;
 }
 
 .img-carousel {
-	height: 500px;
+	height: 550px;
 }
 
 /* ----------------- Media Query ----------------- */
@@ -139,5 +151,16 @@ p {
 @media (max-width: 800px) {
 	.photos-carousel-section {
 		width: 90%;
+	}
+
+	.img-carousel {
+		height: 500px;
+	}
+}
+
+@media (max-width: 400px) {
+	.testimonials-img {
+		width: 100%;
+		height: 220px;
 	}
 }
